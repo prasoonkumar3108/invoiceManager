@@ -19,7 +19,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedIndex = 0;
 
   final List<String> _titles = [
-    'Dashboard Overview',
+    'Financial Overview',
     'Manage Invoices',
     'Manage Clients',
     'Manage Products',
@@ -87,7 +87,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         ),
                         style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.white,
-                          backgroundColor: Colors.amber.shade700,
+                          backgroundColor: Colors.blue,
                           padding: EdgeInsets.symmetric(
                             horizontal: isMobile ? 12 : 20,
                             vertical: isMobile ? 8 : 12,
