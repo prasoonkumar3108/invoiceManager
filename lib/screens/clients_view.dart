@@ -47,7 +47,7 @@ class _ClientsViewState extends State<ClientsView> {
                 child: TextField(
                   controller: _searchController,
                   decoration: InputDecoration(
-                    hintText: 'Search clients by name, email, phone or address..',
+                    hintText: 'Search clients by name, email, phone or address.',
                     prefixIcon: const Icon(Icons.search),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
