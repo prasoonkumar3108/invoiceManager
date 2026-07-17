@@ -25,6 +25,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     'Manage Products',
   ];
 
+  
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<InvoiceProvider>(context);
